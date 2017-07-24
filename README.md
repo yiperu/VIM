@@ -29,6 +29,36 @@ $ pbpaste | less
 $ pbpaste > pastetest.txt
 $ pbpaste | grep rcp
 ```
+💡 Para ir a una letra en particular escribir:
+
+```
+f<letter> Example $fs
+vf<letter> Example $vfs
+```
+💡 Para ir al inicio de una linea: cero
+
+```
+0
+```
+💡 Para seleccionar toda una palabra
+
+```
+viw // visual inter word
+```
+💡 Para seleccionar toda una palabra, pero incluye el espacio en blanco
+
+```
+vaw // visual all word
+```
+💡 Para borrar una palabra seleccionada, funciona tanto la `x` como la `d`
+
+💡 Para borrar una palabra seleccionandola al mismo tiempo, funciona tanto la `diw`, `daw`
+
+💡 Hay una sutil diferencia cuando se usa comandos con palabras mayuscular y minusculas: `viw`, `viW` y `vaw` y `vaW`
+
+💡 Para borrar una palabra seleccionandola al mismo tiempo, funciona tanto la `diw`, `daw`
+
+💡 Podriamos copiar al clipboard usando estas notaciones: `yiw`, `yiw`, `yaw`, `yaw` y luego pegarlas con el comando `p`
 
 
 
