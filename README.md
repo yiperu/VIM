@@ -10,6 +10,30 @@ Interestin link
 
 ##Some Tip
 
+Copy to clipboar, example:  `pwd | pbcopy`
+
+Example:
+
+```
+$ curl -L "http://google.cl" | pbcopy
+$ ps aux | pbcopy
+$ ps aux | grep root | pbcopy
+```
+
+Paste from clipboar, example:  `pwd | pbpaste`
+
+Example:
+
+```
+$ pbpaste | less
+$ pbpaste > pastetest.txt
+$ pbpaste | grep rcp
+```
+
+
+
+
+
 
 
 
