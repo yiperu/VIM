@@ -36,6 +36,12 @@ $ pbpaste | grep rcp
 		 `k`
 	`h`	 	  `l`
          `j`
+💡 Podemos aumentarle numeros a estos comandos, para que hagas la catidad especificada de veces, Ejem
+
+```
+$ #<letra>, Ejemplo 5h, 3k, 6l, 4j
+```         
+         
 💡 Para ir hacia adelante de palabra en palabra `w` modo comando
 
 💡 Para ir hacia atras de palabra en palabra `b` modo comando
@@ -183,3 +189,34 @@ ca"  // change around "
 💡 `viB`(visual inside B es dentro de Llaves) = { }
 💡 `vaB`(visual around B es dentro de Llaves) = { }
 
+💡 Para establecer numeros de linea, se ejecuta el comando:
+```
+:set number
+```
+
+💡 Sabiendo el numero de linea, podemos saltar hasta cualquier linea, mediate el comando:
+```
+:<#> ,  Ejemplo: :5 <Enter>
+```
+
+💡 Para borrar una palabra, es necesario, irse hasta el inicio de la palabra y ejecutar este comando `dw` (delete word)
+
+💡 Para borrar todo el resto de la palabra, desde donde esta el curso, utilizar `db` (delete before)
+
+💡 Podemos aplicar el numero al inicio de estos comandos, ejemplo `2dw` borrara las siguientes 2 palabra
+
+💡 Para cambiar la palabra desde donde esta el cursor: `cw` (change word)
+
+
+
+#### Averiguar
+```
+:edit ~/.vimrc
+:source ~/.vimrc
+```
+
+```
+syntax on
+set number
+
+```
