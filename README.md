@@ -10,7 +10,7 @@ Interestin link
 
 ##Some Tip
 
-Copy to clipboar, example:  `pwd | pbcopy`
+Copy to clipboard, example:  `pwd | pbcopy`
 
 Example:
 
@@ -43,20 +43,18 @@ vf<letter> Example $vfs
 💡 Para seleccionar toda una palabra
 
 ```
-viw // visual inter word
+viw // visual into word
 ```
 💡 Para seleccionar toda una palabra, pero incluye el espacio en blanco
 
 ```
-vaw // visual all word
+vaw // visual around word
 ```
 💡 Para borrar una palabra seleccionada, funciona tanto la `x` como la `d`
 
 💡 Para borrar una palabra seleccionandola al mismo tiempo, funciona tanto la `diw`, `daw`
 
-💡 Hay una sutil diferencia cuando se usa comandos con palabras mayuscular y minusculas: `viw`, `viW` y `vaw` y `vaW`
-
-💡 Para borrar una palabra seleccionandola al mismo tiempo, funciona tanto la `diw`, `daw`
+💡 Hay una sutil diferencia cuando se usa comandos con palabras mayuscular y minusculas: `viw`, `viW` y `vaw` y `vaW`. Cual es la sutil diferencia?
 
 💡 Podriamos copiar al clipboard usando estas notaciones: `yiw`, `yiw`, `yaw`, `yaw` y luego pegarlas con el comando `p`
 
@@ -65,8 +63,8 @@ vaw // visual all word
 💡 El patron de `inner` o `all` `word` funciona para lo parrafos tambien:
 
 ```
-vip
-vap
+vip // visual into pharagraph
+vap // visual around pharagraph
 
 ```
 
@@ -77,6 +75,10 @@ vap
 💡 En el caso de sentencias para borar tenemos este comando `das`  (delete around sentec sentence)
 
 💡 En el caso de palabras que estan dentro de un tag  `vit`  (visual inside tag)
+
+```
+<body>This is the body of web page</body>
+```
 
 💡 En el caso de palabras que estan dentro de un tag  `vat`  (visual around tag) para seleccionar con todo el tag
 
@@ -127,9 +129,10 @@ ca"  // change around "
 ca"  // change around "
 ```
 
-💡 Por averiguar `vib`(visual inside b) = ()
+💡 `vib`(visual inside b es dentro de parentesis) = ( )
 
-💡 Por averiguar `vab`(visual inside b)
+💡 `vab`(visual around parentesis)
 
-💡 Por averiguar `viB`(visual inside b) = {}
+💡 `viB`(visual inside B es dentro de Llaves) = { }
+💡 `vaB`(visual around B es dentro de Llaves) = { }
 
