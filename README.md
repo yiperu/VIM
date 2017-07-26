@@ -28,18 +28,65 @@ Example:
 $ pbpaste | less
 $ pbpaste > pastetest.txt
 $ pbpaste | grep rcp
+
 ```
-💡 Para ir a una letra en particular escribir:
+
+### Movimientos:
+
+		 `k`
+	`h`	 	  `l`
+         `j`
+💡 Para ir hacia adelante de palabra en palabra `w` modo comando
+
+💡 Para ir hacia atras de palabra en palabra `b` modo comando
+
+💡 Para ir hasta el final de la lines `$`
+
+💡 Para ir al inicio de una linea: cero `0`
+
+```
+_    Hola, esto es una frase
+```
+💡 Para ir al inicio de la frase `^` 
+
+```
+	_Hola, esto es una frase
+```
+
+💡 Para ir al inicio del archivo `gg` 
+
+💡 Para ir al final del archivo `G` (Shift + g) 
+
+💡 Para moverse entre parrafos se usa `{ }` 
+
+💡 Para ir a una letra en particular hacia adelante, escribir:
 
 ```
 f<letter> Example $fs
-vf<letter> Example $vfs
+vf<letter> Example $vfs.  // Visual
 ```
-💡 Para ir al inicio de una linea: cero
+
+💡 Para ir a una letra en particular hacia atras, escribir:
 
 ```
-0
+F<letter> Example $Fs.  // F mayuscula
+vF<letter> Example $vFs.  // Visual
 ```
+
+💡 Para ir a una letra en particular hacia adelante, (un caracter antes) escribir:
+
+```
+t<letter> Example $ts.  // F mayuscula
+vt<letter> Example $vts.  // Visual
+```
+
+💡 Para ir a una letra en particular hacia atras, escribir:
+
+```
+T<letter> Example $Ts.  // F mayuscula
+vT<letter> Example $vTs.  // Visual
+```
+
 💡 Para seleccionar toda una palabra
 
 ```
